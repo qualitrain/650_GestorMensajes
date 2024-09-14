@@ -3,6 +3,10 @@ package mx.com.qtx.gestmsj.programacion;
 import java.util.List;
 
 public interface IContacto {
-	public void setDatosContacto(String idContacto, String nombre, String telefono );
-	public String getDatosContacto();
+	public void setNombreContacto();
+	public void setCorreoContacto();
+	public void setTelefonoContacto();
+	public String getNombreContacto();
+	public String getTelefonoContacto();
+	public String getCorreoContacto();
 }
