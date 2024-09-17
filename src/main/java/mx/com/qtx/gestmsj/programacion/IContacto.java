@@ -9,4 +9,5 @@ public interface IContacto {
 	public String getNombreContacto();
 	public String getTelefonoContacto();
 	public String getCorreoContacto();
+
 }
