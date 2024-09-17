@@ -36,4 +36,8 @@ public class Mensaje {
 				+ "]";
 	}
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> main
 }
