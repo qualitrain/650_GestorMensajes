@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public interface IGestorContactos {
 
 	//Contratos para el gestor de contactos
+
 	public void cargaContactosExcel(String nombreArchivo);
 	public void cargaContactosFacebook(String perfil);
 	public void cargaContactosLDAP(String directorio);
